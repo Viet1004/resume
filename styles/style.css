@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --mainTextColor-light:#000;
+    --secondaryTextColor-light:rgb(51 51 51);
+    --mainLinkColor-light:#0da2b8;
+    --mainBorderColor-light:rgb(218, 218, 218);
+    --mainBgColor-light:rgb(249, 250,251);
+
+    --mainTextColor-dark:#fff;
+    --secondaryTextColor-dark:#adb0b1;
+    --mainLinkColor-dark:rgb(30, 190,214);
+    --mainBorderColor-dark:#2b3031;
+    --mainBgColor-dark:#131415;
+    
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor:var(--mainBgColor-dark);
+}
+
+
+*{
+    font-family: "Readex Pro";
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);
+}
+
+body{
+    background-color: var(--mainBgColor);
+}
+
+a{
+    text-decoration: wavy;
+    color: var(--mainLinkColor);
+    font-size: 500;
+}
+
+li{
+    line-height: 1.9em;
+}
+
+img{
+    width: 50%;
+}
+
+p{
+    max-width: 600px;
+}
+
+#section--page{
+    margin-bottom: 20px;
+}
+
+.separation--bar{
+    width: 700px;
+    height: 2px;
+    background-color: #adb0b1;
+}
+
+/* Side bar - start */
+
+#level-bar-Vietnamese{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+    position: static;
+}
+
+#progress-bar{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(102, 100, 100);
+}
+
+#progress-bar>#progress-bar-Vietnamese{
+    background-color: rgb(26, 25, 25);
+    width: 95%;    
+    height: 4px;
+    border-radius: 2px;
+}
+
+#progress-bar>#progress-bar-English{
+    background-color: rgb(26, 25, 25);
+    width: 70%;    
+    height: 4px;
+    border-radius: 2px;
+}
+
+#progress-bar>#progress-bar-French{
+    background-color: rgb(26, 25, 25);
+    width: 70%;    
+    height: 4px;
+    border-radius: 2px;
+}
+
+
+
+/* Side bar - end */
+
+#container--main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#wrapper--hero{
+    display: inline-flex;
+    align-items: center;
+    gap: 3em;
+    width: 800px;
+}
+
+#profileResume{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+#socials--list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#socials--list a{
+    font-size: 0.9em;
+    color: var(--secondaryTextColor);
+    transition: 0.2s;
+}
+
+#socials--list a:hover{
+    color: rgb(103, 205, 208);
+    
+}
+
+#skills-interests{
+    display: flex;
+    width:1000px;
+    justify-content: left;
+    text-align: left;
+    gap: 8em;
+}
+
+.sidebar{
+    margin-left: 10px;
+    margin-right: 60px;
+    padding: 5px 30px;
+    background-color: #2d2f2e;
+    border-radius: 5px;
+}
