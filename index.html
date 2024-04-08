@@ -7,6 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/timeline.css" rel="stylesheet"> 
     </head>
     <body>
         <div id="container--main">
@@ -35,19 +36,19 @@
                             <ul>
                                 <li>
                                     <p>Vietnamese</p> 
-                                    <div id="progress-bar">
+                                    <div class="progress-bar">
                                         <div id="progress-bar-Vietnamese"></div>
                                     </div>
                                 </li>
                                 <li>
                                     <p>English</p>
-                                    <div id="progress-bar">
+                                    <div class="progress-bar">
                                         <div id="progress-bar-English"></div>
                                     </div> 
                                 </li>
                                 <li>
                                     <p>French</p>
-                                    <div id="progress-bar">
+                                    <div class="progress-bar">
                                         <div id="progress-bar-French"></div>
                                     </div>
                                 </li>
@@ -73,36 +74,55 @@
                             <h2 class="sub--sub--content">Education</h2>
                             <section class="timeline">
                                 <ul>
-                                    <li class="timeline-event">
+                                    <li class="timeline-event--">
                                         <label class="timeline-event-icon"></label>
-                                        <h3 class="sub--sub--sub--content timeline-event-thumbnail">Master Program</h3>
-                                        <h4 class="sub--sub--sub--content--sup">Institute Polytechnique de Paris (since September 2022)</h4>
-                                        <i>Major: Statistics, Finance and Actuarial Science</i>
-        <!--                                <p>Courses taken: Introduction to Real Analysis, Probability, Quantum
-                                            Physics, Mechanism of Object-oriented Programming, Complex
-                                            Analysis, Statistics, Markov Chain, Algorithm Analysis, Statistical
-                                            Physics, Functional Analysis, Optimization and Control, Foundation of
-                                            Machine Learning, Monte-Carlo Method, Dynamic System of MultiScale Problems.</p> -->
+                                        <div class="timeline-event-copy">
+                                            <h3 class="sub--sub--sub--content timeline-event-thumbnail--">Ph.D. candidate</h3>
+                                            <h4 class="sub--sub--sub--content--sup">University of Luxembourg (From February 2024)</h4>
+                                            <i>Topic: Utilize HPC for large-scale load forecasting</i>
+            <!--                                <p>Courses taken: Introduction to Real Analysis, Probability, Quantum
+                                                Physics, Mechanism of Object-oriented Programming, Complex
+                                                Analysis, Statistics, Markov Chain, Algorithm Analysis, Statistical
+                                                Physics, Functional Analysis, Optimization and Control, Foundation of
+                                                Machine Learning, Monte-Carlo Method, Dynamic System of MultiScale Problems.</p> -->
+                                        </div>
+                                    </li>                                    
+                                    <li class="timeline-event--">
+                                        <label class="timeline-event-icon"></label>
+                                        <div class="timeline-event-copy">
+                                            <h3 class="sub--sub--sub--content timeline-event-thumbnail--">Master Program</h3>
+                                            <h4 class="sub--sub--sub--content--sup">Institute Polytechnique de Paris (September 2022-November 2023)</h4>
+                                            <i>Major: Statistics, Finance and Actuarial Science</i>
+            <!--                                <p>Courses taken: Introduction to Real Analysis, Probability, Quantum
+                                                Physics, Mechanism of Object-oriented Programming, Complex
+                                                Analysis, Statistics, Markov Chain, Algorithm Analysis, Statistical
+                                                Physics, Functional Analysis, Optimization and Control, Foundation of
+                                                Machine Learning, Monte-Carlo Method, Dynamic System of MultiScale Problems.</p> -->
+                                        </div>
                                     </li>
-                                    <li class="timeline-event">
+                                    <li class="timeline-event--">
                                         <label class="timeline-event-icon"></label>
-                                        <h3 class="sub--sub--sub--content timeline-event-thumbnail">Engineering Program</h3>
-                                        <h4 class="sub--sub--sub--content--sup">École Polytechnique, Palaiseau, France (since September 2019)</h4>
-                                        <i>Major: Applied Mathematics</i>
-        <!--                                <p>Courses taken: Introduction to Real Analysis, Probability, Quantum
-                                            Physics, Mechanism of Object-oriented Programming, Complex
-                                            Analysis, Statistics, Markov Chain, Algorithm Analysis, Statistical
-                                            Physics, Functional Analysis, Optimization and Control, Foundation of
-                                            Machine Learning, Monte-Carlo Method, Dynamic System of MultiScale Problems.</p> -->
+                                        <div class="timeline-event-copy">
+                                            <h3 class="sub--sub--sub--content timeline-event-thumbnail--">Engineering Program</h3>
+                                            <h4 class="sub--sub--sub--content--sup">École Polytechnique, Palaiseau, France (since September 2019)</h4>
+                                            <i>Major: Applied Mathematics</i>
+            <!--                                <p>Courses taken: Introduction to Real Analysis, Probability, Quantum
+                                                Physics, Mechanism of Object-oriented Programming, Complex
+                                                Analysis, Statistics, Markov Chain, Algorithm Analysis, Statistical
+                                                Physics, Functional Analysis, Optimization and Control, Foundation of
+                                                Machine Learning, Monte-Carlo Method, Dynamic System of MultiScale Problems.</p> -->
+                                        </div>
                                     </li>
-                                    <li class="timeline-event">
+                                    <li class="timeline-event--">
                                         <label class="timeline-event-icon"></label>
-                                        <h3 class="sub--sub--sub--content timeline-event-thumbnail">Bachelor Program</h3>
-                                        <h4 class="sub--sub--sub--content--sup">Hanoi University of Science, Hanoi, Vietnam (September 2016 - May 2019)</h4>
-                                        <i>Major: Physics</i>
-        <!--                                <p>Course taken: Classical Mechanics, Linear
-                                            Algebra, Thermodynamics, Complex Analysis , Introduction to Modern
-                                            Physics, Earth Sciences</p>  -->
+                                        <div class="timeline-event-copy">
+                                            <h3 class="sub--sub--sub--content timeline-event-thumbnail--">Bachelor Program</h3>
+                                            <h4 class="sub--sub--sub--content--sup">Hanoi University of Science, Hanoi, Vietnam (September 2016 - May 2019)</h4>
+                                            <i>Major: Physics</i>
+            <!--                                <p>Course taken: Classical Mechanics, Linear
+                                                Algebra, Thermodynamics, Complex Analysis , Introduction to Modern
+                                                Physics, Earth Sciences</p>  -->
+                                        </div>
                                     </li>
                                 </ul>
                             </section>
@@ -111,6 +131,11 @@
                         <div class="sub--content" id="Experience">
                             <h2>Working Experience</h2>
                             <ul>
+                                <li>
+                                    <h3 class="sub--sub--sub--content">Research Internship</h3>
+                                    <h4 class="sub--sub--sub--content--sup">EDF, Palaiseau, Paris, France (April 2022 - August 2022)</h4>
+                                    <p><i>Topic: Federated learning in load forecasting</i></p>
+                                </li>
                                 <li>
                                     <h3 class="sub--sub--sub--content">Research Internship</h3>
                                     <h4 class="sub--sub--sub--content--sup">TINUBU, Issy-les-Moulineaux, France (April 2022 - August 2022)</h4>

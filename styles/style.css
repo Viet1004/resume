@@ -70,28 +70,28 @@ p{
     position: static;
 }
 
-#progress-bar{
+.progress-bar{
     width: 100px;
     height: 4px;
     border-radius: 2px;
     background-color: rgb(102, 100, 100);
 }
 
-#progress-bar>#progress-bar-Vietnamese{
+.progress-bar>#progress-bar-Vietnamese{
     background-color: rgb(26, 25, 25);
     width: 95%;    
     height: 4px;
     border-radius: 2px;
 }
 
-#progress-bar>#progress-bar-English{
+.progress-bar>#progress-bar-English{
     background-color: rgb(26, 25, 25);
     width: 70%;    
     height: 4px;
     border-radius: 2px;
 }
 
-#progress-bar>#progress-bar-French{
+.progress-bar>#progress-bar-French{
     background-color: rgb(26, 25, 25);
     width: 70%;    
     height: 4px;
